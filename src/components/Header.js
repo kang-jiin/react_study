@@ -18,15 +18,15 @@ const Header = () => (
             <Nav className="mrx-auto" navbar>
               
               <NavItem className="d-flex align-items-center">
-                <NavLink className="font-weight-bold" href="/">This Page..</NavLink>
+                <NavLink className="font-weight-bold" href="/test1">This Page..</NavLink>
               </NavItem>
               
               <NavItem className="d-flex align-items-center">
-                <NavLink className="font-weight-bold" href="/">Career</NavLink>
+                <NavLink className="font-weight-bold" href="/test2">Career</NavLink>
               </NavItem>
               
               <NavItem className="d-flex align-items-center">
-                <NavLink className="font-weight-bold" href="/">Skill</NavLink>
+                <NavLink className="font-weight-bold" href="/test3">Skill</NavLink>
               </NavItem>
               
               <UncontrolledDropdown className="d-flex align-items-center" nav inNavbar>

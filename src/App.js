@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 import Header from './components/Header';
-import Contents from './components/Contents';
+import Routes from './components/Routes';
 
 const App = () => (
   <Fragment>
@@ -14,7 +14,7 @@ const App = () => (
         <Row noGutters className="pt-2 pt-md-5 w-100 px-4 px-xl-0 position-relative">
 
           <Col className="py-5 mb-5 py-md-0 mb-md-0">
-            <Contents />
+            <Routes />
           </Col>
           
         </Row>
