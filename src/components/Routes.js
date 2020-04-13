@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Contents from './Contents';
-import Test1 from "./Test1";
-import Test2 from "./Test2";
+import Home from "./Home/Home";
+import Carrer from "./Carrer/Carrer";
 import Test3 from "./Test3";
-import ProjList from "../views/ProjList";
+import ProjList from "./Projects/ProjList";
 import Proj1 from "../views/Proj1";
 import Proj2 from "../views/Proj2";
 import Proj3 from "../views/Proj3";
@@ -12,8 +12,8 @@ import Proj3 from "../views/Proj3";
 export default () => (
   <Router>
     <Route exact path="/" component={Contents} />
-    <Route path="/test1" component={Test1} />
-    <Route path="/test2" component={Test2} />
+    <Route path="/home" component={Home} />
+    <Route path="/carrer" component={Carrer} />
     <Route path="/test3" component={Test3} />
     <Route path="/projlist" component={ProjList} />
     <Route path="/proj1" component={Proj1} />
